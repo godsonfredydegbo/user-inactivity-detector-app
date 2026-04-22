@@ -58,15 +58,6 @@ export default function InactivityDetector() {
                             <p className="text-gray-500">
                                 You have been inactive for 30 seconds
                             </p>
-
-                            <div className="card-actions justify-center mt-4">
-                                <button 
-                                    className="btn btn-primary"
-                                    onClick={() => setIsInactive(false)}
-                                >
-                                    I'm back
-                                </button>
-                            </div>
                         </div>
                     </div>
                 </div>
